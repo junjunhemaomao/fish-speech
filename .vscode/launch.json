@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run API Server",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/tools/api_server.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Web UI",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/tools/run_webui.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}
