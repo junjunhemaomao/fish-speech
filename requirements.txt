@@ -1,4 +1,11 @@
 # Generated from pyproject.toml dependencies (local only)
+#
+# ⚠️ CRITICAL: The torch below is CPU-only by default.
+# If you have an NVIDIA GPU, after `pip install -r requirements.txt`,
+# replace torch with the CUDA build:
+#   pip uninstall torch torchaudio -y
+#   pip install torch==2.8.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu129
+#
 numpy
 torch==2.8.0
 torchaudio==2.8.0
